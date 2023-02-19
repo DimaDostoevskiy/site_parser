@@ -5,21 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.20.7",
-    "@babel/core": "^7.20.12",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
-    "chalk": "^5.2.0",
-    "cheerio": "^1.0.0-rc.12",
     "mysql": "^2.18.1",
     "mysql2": "^3.1.2",
     "puppeteer": "^19.7.1",
-    "sequelize": "^6.28.0",
-    "transliteration": "^2.3.5"
+    "sequelize": "^6.28.0"
   }
 }
